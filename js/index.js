@@ -11,7 +11,7 @@ $(document).ready(function() {
 		g.addEdge(e);
 	}
 	
-	$('body').html("finished loading the file!")
+	$('p.status').html("I finished loading the data!")
 	
 	
 	// change this line if you want to use kruskal's instead!
